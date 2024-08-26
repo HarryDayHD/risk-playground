@@ -243,6 +243,17 @@ files = [
 ]
 
 [[package]]
+name = "inflection"
+version = "0.5.1"
+description = "A port of Ruby on Rails inflector to Python"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "inflection-0.5.1-py2.py3-none-any.whl", hash = "sha256:f38b2b640938a4f35ade69ac3d053042959b62a0f1076a5bbaa1b9526605a8a2"},
+    {file = "inflection-0.5.1.tar.gz", hash = "sha256:1a29730d366e996aaacffb2f1f1cb9593dc38e2ddd30c91250c6dde09ea9b417"},
+]
+
+[[package]]
 name = "jinja2"
 version = "3.1.4"
 description = "A very fast and expressive template engine."
@@ -399,6 +410,17 @@ files = [
 ]
 
 [[package]]
+name = "more-itertools"
+version = "10.4.0"
+description = "More routines for operating on iterables, beyond itertools"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "more-itertools-10.4.0.tar.gz", hash = "sha256:fe0e63c4ab068eac62410ab05cccca2dc71ec44ba8ef29916a0090df061cf923"},
+    {file = "more_itertools-10.4.0-py3-none-any.whl", hash = "sha256:0f7d9f83a0a8dcfa8a2694a770590d98a67ea943e3d9f5298309a484758c4e27"},
+]
+
+[[package]]
 name = "narwhals"
 version = "1.5.5"
 description = "Extremely lightweight compatibility layer between dataframe libraries"
@@ -416,6 +438,26 @@ modin = ["modin"]
 pandas = ["pandas (>=0.25.3)"]
 polars = ["polars (>=0.20.3)"]
 pyarrow = ["pyarrow (>=11.0.0)"]
+
+[[package]]
+name = "nasdaq-data-link"
+version = "1.0.4"
+description = "Package for Nasdaq Data Link API access"
+optional = false
+python-versions = ">= 3.7"
+files = [
+    {file = "Nasdaq Data Link-1.0.4.tar.gz", hash = "sha256:7beae38ff0b376db24a50d6b8445c94832ebdd88737f6aafbc81a7dbdda25ca1"},
+    {file = "Nasdaq_Data_Link-1.0.4-py2.py3-none-any.whl", hash = "sha256:214a620551da1c7521476839fb96f932234d4d78e7ba44310722709ca37b0691"},
+]
+
+[package.dependencies]
+inflection = ">=0.3.1"
+more-itertools = "*"
+numpy = ">=1.8"
+pandas = ">=0.14"
+python-dateutil = "*"
+requests = ">=2.7.0"
+six = "*"
 
 [[package]]
 name = "numpy"
@@ -1142,4 +1184,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "51d8c20596675b5bc0d5192104942a8a21e16572e39ad854ec58d9fb05018382"
+content-hash = "452a16f6a15f3b2b81441cbeb19ea637cf2f80618eed67868281f424c0952099"
