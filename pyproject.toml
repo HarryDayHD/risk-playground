@@ -2,7 +2,7 @@
 name = "risk-playground"
 version = "0.1.0"
 description = ""
-authors = ["Harry Day <Harry.Day.HD@Gmail.com>"]
+authors = ["Harry Day <HarryDOTDayDOTHD@GeeMail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
