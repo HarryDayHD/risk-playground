@@ -10,6 +10,9 @@ python = "^3.12"
 streamlit = "^1.37.1"
 nasdaq-data-link = "^1.0.4"
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+nbstripout = "^0.7.1"
 
 [build-system]
 requires = ["poetry-core"]
